@@ -24,7 +24,6 @@
   right: 45px;
 }
 .coming {
-  
   left: 50px;
 
   font-size: 5rem;
@@ -37,4 +36,31 @@
   font-size: 8rem;
   color: var(--white);
   font-weight: 700;
+}
+.tedx-box {
+  width: 50%;
+  outline: solid 1px var(--red);
+  background-color: azure;
+
+  clip-path: polygon(
+    33% 0,
+    0 0,
+    30% 50%,
+    0 100%,
+    30% 100%,
+    50% 70%,
+    67% 100%,
+    100% 100%,
+    70% 50%,
+    100% 0,
+    74% 0,
+    50% 30%
+  );
+}
+
+.title_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
