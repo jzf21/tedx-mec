@@ -33,7 +33,7 @@ export function ParallaxText({ children }) {
     [-30, 30]
   );
 
-  const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], {
+  const velocityFactor = useTransform(smoothVelocity, [1, 1000], [0, 5], {
     clamp: false,
   });
   const x = useTransform(baseX, (v) => `${wrap(0, -25, v)}%`);

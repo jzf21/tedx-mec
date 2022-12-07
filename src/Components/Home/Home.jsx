@@ -19,7 +19,7 @@ const Home = () => {
       <motion.div
         animate={{ rotate: 0 }}
         initial={{ x: 0, rotate: 90 }}
-        className="tedx-box  bg-red-700 "
+        className="tedx-box  bg-red-700 bg-[url(https://media4.giphy.com/media/apLbFrlDVQZV5oUTXT/giphy.gif?cid=ecf05e475w1nh28b7o3772abqrzy98r8g42n9bru60t1yld4&rid=giphy.gif&ct=g)] "
       ></motion.div>
 
       {/* bg-[url(https://media4.giphy.com/media/apLbFrlDVQZV5oUTXT/giphy.gif?cid=ecf05e475w1nh28b7o3772abqrzy98r8g42n9bru60t1yld4&rid=giphy.gif&ct=g)] */}
