@@ -1,10 +1,11 @@
 import React from "react";
+import Clippy from "../Clippy/Clippy";
 
 import "./About.css";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about bg-black text-white">
       <div className="about__container" id="about">
         <h1 className="section__title text-5xl">ABOUT TED</h1>
         <div className="about__section">
@@ -26,7 +27,8 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-5">
         <div className="about__section">
           <h1 className="section__title text-5xl">TEDx</h1>
           <p>
@@ -44,6 +46,11 @@ function About() {
             individual TEDx events are self-organized. <br />
             <br />
           </p>
+        </div>
+        <Clippy />
+        <div>
+          {" "}
+          <Clippy />
         </div>
         <div className="about__section">
           <h1 className="section__title text-5xl">TEDxMEC</h1>

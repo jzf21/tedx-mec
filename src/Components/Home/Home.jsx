@@ -5,6 +5,8 @@ import X from "../../assets/cutout4.png";
 import bg from "../../assets/2019-1.jpg";
 import X2 from "../../assets/Group 1.png";
 import Clippy from "../Clippy/Clippy";
+import Butterfly from "../Butterfly/Butterfly";
+
 
 const Home = () => {
   return (
@@ -19,8 +21,8 @@ const Home = () => {
         initial={{ x: 0, rotate: 90 }}
         className="tedx-box  bg-red-700 "
       ></motion.div>
+      <Butterfly/>
       {/* bg-[url(https://media4.giphy.com/media/apLbFrlDVQZV5oUTXT/giphy.gif?cid=ecf05e475w1nh28b7o3772abqrzy98r8g42n9bru60t1yld4&rid=giphy.gif&ct=g)] */}
-      {/* <Clippy /> */}
     </motion.div>
   );
 };

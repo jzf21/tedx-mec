@@ -8,8 +8,9 @@
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(4, auto);
-  width: 30vh;
+  width: 15vh;
   height: 50vh;
+  margin-left: 5em;
 }
 
 ._border {
@@ -93,6 +94,7 @@
   height: 100%;
   user-select: none;
   background: rgb(238, 12, 12);
+  background-image: url("https://media4.giphy.com/media/Ll34wh8fpcPSwxZXOn/200.webp?cid=ecf05e47k7xv88v0jkvoa4f80fe6rbxl7iaslhul3vras3is&rid=200.webp&ct=g");
   background-position: 50% 0%;
   background-size: cover;
   mix-blend-mode: soft-light;
