@@ -6,6 +6,7 @@ import About from "./Components/About/About";
 import Butterfly from "./Components/Butterfly/Butterfly";
 import { ParallaxText } from "./Components/ScrollBanner/Scrollbanner";
 import { ParallaxTextleft } from "./Components/ScrollBanner/Scrollbannerleft";
+import Speakers from "./Components/Speakers/Speakers";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       </ParallaxTextleft>
 
       <About />
+      <Speakers/>
     </>
   );
 }

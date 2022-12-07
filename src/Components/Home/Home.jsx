@@ -6,23 +6,19 @@ import bg from "../../assets/2019-1.jpg";
 import X2 from "../../assets/Group 1.png";
 import Clippy from "../Clippy/Clippy";
 import Butterfly from "../Butterfly/Butterfly";
-
+import Macintosh from "../Macintosh/Macintosh";
 
 const Home = () => {
   return (
     <motion.div className="bg-[#111111] h-[100vh] flex ">
-      <div className="title_center ">
-        {/* <h1 className="text-5xl font-bold text-white">TEDx</h1>
-        <h1 className="text-5xl font-bold text-white">MEC</h1> */}
-        <h1 className="text-5xl font-bold text-white">Coming Soon</h1>
+      <div className="grid grid-cols-2">
+        <div className="col-span-1 text-white text-5xl ">
+          COMING SOON
+        </div>
+        <div>
+          <Macintosh />
+        </div>
       </div>
-      <motion.div
-        animate={{ rotate: 0 }}
-        initial={{ x: 0, rotate: 90 }}
-        className="tedx-box  bg-red-700 bg-[url(https://media4.giphy.com/media/apLbFrlDVQZV5oUTXT/giphy.gif?cid=ecf05e475w1nh28b7o3772abqrzy98r8g42n9bru60t1yld4&rid=giphy.gif&ct=g)] "
-      ></motion.div>
-
-      {/* bg-[url(https://media4.giphy.com/media/apLbFrlDVQZV5oUTXT/giphy.gif?cid=ecf05e475w1nh28b7o3772abqrzy98r8g42n9bru60t1yld4&rid=giphy.gif&ct=g)] */}
     </motion.div>
   );
 };
