@@ -8,8 +8,10 @@ const Imac = () => {
         <div class="screen1">
           <div class="facetime__camera"></div>
         </div>
-        <div class="chin">
-            <img src="https://i.ibb.co/0nQqZ3r/Group-1.png" alt="Group-1" border="0" />
+        <div class="chin flex">
+          <h1 className="mx-auto items-center text-lg text-red-700    justify-center flex text-center">
+            X
+          </h1>
           {/* <svg
             class="logo"
             xmlns="http://www.w3.org/2000/svg"
