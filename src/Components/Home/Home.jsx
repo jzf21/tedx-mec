@@ -7,17 +7,13 @@ import X2 from "../../assets/Group 1.png";
 import Clippy from "../Clippy/Clippy";
 import Butterfly from "../Butterfly/Butterfly";
 import Macintosh from "../Macintosh/Macintosh";
+import Imac from "../Imac/Imac";
 
 const Home = () => {
   return (
-    <motion.div className="bg-[#111111] h-[100vh] flex ">
-      <div className="grid grid-cols-2">
-        <div className="col-span-1 text-white text-5xl ">
-          COMING SOON
-        </div>
-        <div>
-          <Macintosh />
-        </div>
+    <motion.div className="bg-[#111111] h-[100vh] flex items-center justify-center ">
+      <div className="scale-75">
+        <Imac />
       </div>
     </motion.div>
   );
