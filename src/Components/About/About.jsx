@@ -9,7 +9,7 @@ function About() {
       <div className="about__container" id="about">
         <h1 className="section__title text-5xl">ABOUT TED</h1>
         <div className="about__section">
-          <p>
+          <p className="text-sm">
             An idea can blossom into something that can bring unspeakable joy or
             misery to millions. Every human endeavour no matter how small or
             great began with a simple idea. This philosophy is at the heart of
@@ -31,7 +31,7 @@ function About() {
       <div className="grid grid-cols-1 md:grid-cols-2 mt-5">
         <div className="about__section">
           <h1 className="section__title text-5xl">TEDx</h1>
-          <p>
+          <p className="text-sm">
             TEDx is a program of local, self-organized events that bring people
             together to share a TED-like experience. Our event is called
             TEDxMEC, where x = independently organized TED event. At our TEDxMEC
@@ -47,14 +47,17 @@ function About() {
             <br />
           </p>
         </div>
-        <Clippy />
-        <div>
+        <div className="mt-5">
+          {" "}
+          <Clippy />
+        </div>
+        <div className="mt-5">
           {" "}
           <Clippy />
         </div>
         <div className="about__section">
           <h1 className="section__title text-5xl">TEDxMEC</h1>
-          <p>
+          <p className="text-sm">
             TEDx is a program of local, self-organized events that bring people
             together to share a TED-like experience. Our event is called
             TEDxMEC, where x = independently organized TED event. At our TEDxMEC
