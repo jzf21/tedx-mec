@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Home from "./Components/Home/Home";
@@ -7,33 +7,48 @@ import Butterfly from "./Components/Butterfly/Butterfly";
 import { ParallaxText } from "./Components/ScrollBanner/Scrollbanner";
 import { ParallaxTextleft } from "./Components/ScrollBanner/Scrollbannerleft";
 import Speakers from "./Components/Speakers/Speakers";
-
+import Homepage from "./Pages/Homepage";
+import Loadingscreen from "./Components/Loadingscreen.jsx/Loadingscreen";
+import Contact from "./Components/Contact/Contact";
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 6000);
+  }, []);
   return (
     <>
-      <div className="h-[100vh]">
+      {/* <Homepage /> */}
+      {/* <div className="h-[100vh]">
         <Butterfly />
-      </div>
-      <Home />
-      <ParallaxText>
-        <span
-          className="text-white text-3xl
+      </div> */}
+      {loading ? (
+        <Loadingscreen />
+      ) : (
+        <>
+          <Home />
+          <ParallaxText>
+            <span
+              className="text-white text-3xl
         "
-        >
-          ||TECHNOLOGY||ENTERTAINMENT||DESIGN
-        </span>
-      </ParallaxText>
-      <ParallaxTextleft>
-        <span
-          className="text-white text-3xl
+            >
+              ||TECHNOLOGY||ENTERTAINMENT||DESIGN
+            </span>
+          </ParallaxText>
+          <ParallaxTextleft>
+            <span
+              className="text-white text-3xl
         "
-        >
-          TECHNOLOGY||ENTERTAINMENT||DESIGN||
-        </span>
-      </ParallaxTextleft>
+            >
+              TECHNOLOGY||ENTERTAINMENT||DESIGN||
+            </span>
+          </ParallaxTextleft>
 
-      <About />
-      <Speakers/>
+          <About />
+          <Speakers />
+          <Contact />
+        </>
+      )}
     </>
   );
 }

@@ -29,7 +29,7 @@ function About() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-5">
-        <div className="about__section">
+        {/* <div className="about__section">
           <h1 className="section__title text-5xl">TEDx</h1>
           <p className="text-sm">
             TEDx is a program of local, self-organized events that bring people
@@ -46,16 +46,16 @@ function About() {
             individual TEDx events are self-organized. <br />
             <br />
           </p>
-        </div>
-        <div className="mt-5">
+        </div> */}
+        {/* <div className="mt-5">
           {" "}
           <Clippy />
         </div>
         <div className="mt-5">
           {" "}
           <Clippy />
-        </div>
-        <div className="about__section">
+        </div> */}
+        {/* <div className="about__section">
           <h1 className="section__title text-5xl">TEDxMEC</h1>
           <p className="text-sm">
             TEDx is a program of local, self-organized events that bring people
@@ -72,7 +72,7 @@ function About() {
             individual TEDx events are self-organized. <br />
             <br />
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

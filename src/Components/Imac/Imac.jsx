@@ -1,11 +1,53 @@
 import React from "react";
+import Macintosh from "../Macintosh/Macintosh";
+import { motion } from "framer-motion";
 import "./Imac.css";
 
 const Imac = () => {
   return (
     <div className="flex items-center justify-center">
-      <div class="imac">
-        <div class="screen1">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        class="imac"
+      >
+        <div class="screen1 overflow-hidden">
+          <div class="container">
+            <div class="glitch" data-text="COMING SOON">
+              COMING SOON
+            </div>
+            <div class="glow">COMING SOON</div>
+            {/* <p class="subtitle">IMPRACTICAL DEVELOPER</p> */}
+          </div>
+          <div class="scanlines"></div>
+          {/* <motion.div initial={{ scale: 1.2 }}>
+            <Macintosh />
+          </motion.div> */}
+          {/* <motion.div
+            animate={{ scale: 0 }}
+            initial={{ scale: 1 }}
+            transition={{ duration: 0.5, delay: 5 }}
+            className="scale-50"
+          >
+            <Macintosh />
+
+            <motion.svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              className="item"
+            >
+              <motion.path
+                d="M0 100V0l50 50 50-50v100L75 75l-25 25-25-25z"
+                // variants={icon}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                  default: { duration: 2, ease: "easeInOut" },
+                  fill: { duration: 2, ease: [1, 0, 0.8, 1] },
+                }}
+              />
+            </motion.svg>
+          </motion.div> */}
           <div class="facetime__camera"></div>
         </div>
         <div class="chin flex">
@@ -21,7 +63,7 @@ const Imac = () => {
           </svg> */}
         </div>
         <div class="stand"></div>
-      </div>
+      </motion.div>
     </div>
   );
 };

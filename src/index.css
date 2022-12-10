@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,800;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,800;1,100&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,48 +9,92 @@
   --red2: #e50000;
   --black: #000000;
   --white: #fffbf2;
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 body {
   margin: 0px 0px;
   padding: 0px 0px;
 }
-.flex_col{
+.flex_col {
   display: flex;
   flex-direction: column;
 }
-.flex_row{
+.flex_row {
   display: flex;
   flex-direction: row;
 }
-.flex_center{
+.flex_center {
   justify-content: center;
   align-items: center;
 }
-.flex_around{
+.flex_around {
   justify-content: space-around;
   align-items: center;
 }
-.flex_between{
+.flex_between {
   justify-content: space-between;
   align-items: center;
 }
-.flex_end{
+.flex_end {
   justify-content: flex-end;
   align-items: center;
 }
-.flex_start{
+.flex_start {
   justify-content: flex-start;
   align-items: center;
 }
-.flex_wrap{
+.flex_wrap {
   flex-wrap: wrap;
 }
-.flex_nowrap{
+.flex_nowrap {
   flex-wrap: nowrap;
 }
-.flex_wrap_reverse{
+.flex_wrap_reverse {
   flex-wrap: wrap-reverse;
 }
 
+.conic-1 {
+  background-image: conic-gradient(
+    #ceda2c, #fe4851
+  );
+}
+.conic-2 {
+  background-image: conic-gradient(
+    #c8dfda,
+    #f23c57,
+    #c8dfda
+  );
+}
+.conic-3 {
+  background-image: conic-gradient(
+    from 0.25turn,
+    #53ef9c,
+    #2601cb,
+    #53ef9c
+  );
+}
+.conic-4 {
+  background-image: conic-gradient(
+    from 0.25turn at 20px center,
+    #fc9590,
+    #724789,
+    #fc9590
+  );
+}
+.conic-5 {
+  background-image: conic-gradient(
+    at top 5px right 5px,
+    #0f1313 180deg,
+    #ed4c3e 240deg,
+    #181817 300deg
+  );
+}
+
+.conic-6 {
+  background-image: conic-gradient(
+    #fc5148 120deg,
+    #fbed70 120deg 240deg,
+    #8938fb 240deg
+  );
+}

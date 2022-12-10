@@ -22,7 +22,7 @@ const Butterfly = () => {
 
           <motion.div class="lwings">
             <motion.div
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,
@@ -31,7 +31,7 @@ const Butterfly = () => {
               class="l2"
             ></motion.div>
             <motion.div
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,
@@ -40,7 +40,7 @@ const Butterfly = () => {
               class="l3"
             ></motion.div>
             <motion.div
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,
@@ -49,7 +49,7 @@ const Butterfly = () => {
               class="l4"
             ></motion.div>
             <motion.div
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,
@@ -58,7 +58,7 @@ const Butterfly = () => {
               class="l5"
             ></motion.div>
             <motion.div
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,
@@ -76,7 +76,7 @@ const Butterfly = () => {
 
           <motion.div class="rwings">
             <motion.div
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,
@@ -85,7 +85,7 @@ const Butterfly = () => {
               class="r2"
             ></motion.div>
             <motion.div
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,
@@ -94,7 +94,7 @@ const Butterfly = () => {
               class="r3"
             ></motion.div>
             <motion.div
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,
@@ -103,7 +103,7 @@ const Butterfly = () => {
               class="r4"
             ></motion.div>
             <motion.div
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,
@@ -113,7 +113,7 @@ const Butterfly = () => {
             ></motion.div>
             <motion.div
               class="r7"
-              animate={{ rotateY: 80 }}
+              animate={{ rotateY: 60 }}
               transition={{
                 duration: 0.5,
                 repeat: Infinity,

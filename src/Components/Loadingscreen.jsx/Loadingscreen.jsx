@@ -1,17 +1,20 @@
-import React from 'react'
-import {motion} from 'framer-motion'
+import React from "react";
+import { motion } from "framer-motion";
+import Butterfly from "../Butterfly/Butterfly";
 
 const Loadingscreen = () => {
   return (
-    <div className='h-[100vh] '>
-        <div className='flex flex-col justify-center items-center'>
-            <div className='tedx-box'>
+    <motion.div
+      animate={{ backgroundColor: "black" }}
+      initial={{ backgroundColor: "white" }}
+      transition={{ duration: 1, delay: 2, type: "tween" }}
+      className="h-[100vh] "
+    >
+      <div className="flex flex-col justify-center items-center">
+        <Butterfly />
+      </div>
+    </motion.div>
+  );
+};
 
-            </div>
-
-            </div>
-    </div>
-  )
-}
-
-export default Loadingscreen
+export default Loadingscreen;

@@ -1,14 +1,31 @@
 import React from "react";
-import "./Macintosh.css";
+import Imac from "../Imac/Imac";
+import "./Macintosh.scss";
+import { motion } from "framer-motion";
 
-const Macintosh = () => {
+const Macintosh = ({ children }) => {
   return (
-    <div className="relative scale-75">
-      <div class="macintosh" aria-label="1984 Macintosh illustration">
+    <div className="relative ">
+      <motion.div
+        animate={{ scale: 1 }}
+        transition={{ duration: 1, repeatType: "reverse" }}
+        class="macintosh"
+        aria-label="1984 Macintosh illustration"
+      >
         <div class="monitor">
           <div class="monitor-inner">
             <div class="screen-cutout">
-              <div class="screen"></div>
+              <div class="screen backdrop-blur-sm">
+                <div class="container">
+                  <div class="glitch" data-text="ELISABÉTH">
+                    ELISABÉTH
+                  </div>
+                  <div class="glow">ELISABÉTH</div>
+                  <p class="subtitle">IMPRACTICAL DEVELOPER</p>
+                </div>
+                <div class="scanlines"></div>
+                {children}
+              </div>
             </div>
             <div class="logo">
               <p>🏳️‍🌈</p>
@@ -24,7 +41,7 @@ const Macintosh = () => {
             <div class="cable-hole"></div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
