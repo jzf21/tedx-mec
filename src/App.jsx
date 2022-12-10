@@ -10,6 +10,7 @@ import Speakers from "./Components/Speakers/Speakers";
 import Homepage from "./Pages/Homepage";
 import Loadingscreen from "./Components/Loadingscreen.jsx/Loadingscreen";
 import Contact from "./Components/Contact/Contact";
+import { NavBar } from "./Components/NavBar/NavBar";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -26,6 +27,7 @@ function App() {
         <Loadingscreen />
       ) : (
         <>
+          <NavBar />
           <Home />
           <ParallaxText>
             <span
