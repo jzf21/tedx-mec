@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Tedx } from "../Tedx/Tedx";
 import tedxlogo from "../../assets/tedxlogo.png";
 export const NavBar = () => {
     return (
@@ -11,7 +13,7 @@ export const NavBar = () => {
         <div>
             <ui>
                 <li>
-                <a href="#" class="flex justify-between items-center py-2 pl-3 pr-40 text-white" aria-current="page">ABOUT TEDX</a>
+                <a href="/tedx" class="flex justify-between items-center py-2 pl-3 pr-40 text-white" aria-current="page">ABOUT TEDX</a>
                 </li>
             </ui>
         </div>
@@ -23,7 +25,7 @@ export const NavBar = () => {
         <div>
             <ui>
                 <li>
-                <a href="#" class="flex justify-between items-center py-2 pl-40 pr-4 text-white" aria-current="page">ABOUT TEDXMEC</a>
+                <a href="/tedxmec" class="flex justify-between items-center py-2 pl-40 pr-4 text-white" aria-current="page">ABOUT TEDXMEC</a>
                 </li>
             </ui>
         </div>
@@ -39,4 +41,4 @@ export const NavBar = () => {
     );
   };
 
-  
+export default NavBar

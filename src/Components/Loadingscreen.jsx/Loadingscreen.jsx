@@ -6,7 +6,7 @@ const Loadingscreen = () => {
   return (
     <motion.div
       animate={{ backgroundColor: "black" }}
-      initial={{ backgroundColor: "white" }}
+      initial={{ backgroundColor: "black" }}
       transition={{ duration: 1, delay: 2, type: "tween" }}
       className="h-[100vh] "
     >

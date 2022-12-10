@@ -11,6 +11,9 @@ import Homepage from "./Pages/Homepage";
 import Loadingscreen from "./Components/Loadingscreen.jsx/Loadingscreen";
 import Contact from "./Components/Contact/Contact";
 import { NavBar } from "./Components/NavBar/NavBar";
+import { Route, Routes} from "react-router-dom";
+import { Tedx } from "./Components/Tedx/Tedx";
+import { Tedxmec } from "./Components/Tedxmec/Tedxmec";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -18,8 +21,16 @@ function App() {
     setTimeout(() => setLoading(false), 6000);
   }, []);
   return (
+    
     <>
-      {/* <Homepage /> */}
+     <Routes>
+     
+     <Route path="/tedx" element={<Tedx />} />
+     <Route path="/tedxmec" element={<Tedxmec />} />
+      
+     </Routes>
+      {/* <Homepage />
+      */}
       {/* <div className="h-[100vh]">
         <Butterfly />
       </div> */}
@@ -27,8 +38,10 @@ function App() {
         <Loadingscreen />
       ) : (
         <>
+          
           <NavBar />
           <Home />
+         
           <ParallaxText>
             <span
               className="text-white text-3xl
@@ -51,6 +64,8 @@ function App() {
           <Contact />
         </>
       )}
+
+
     </>
   );
 }

@@ -123,7 +123,7 @@ const Butterfly = () => {
           </motion.div>
 
           <motion.div class="r6"></motion.div>
-          <h1 className="text-5xl justify-center flex content-center text-white">LOADING</h1>
+          
         </motion.div>
       </motion.div>
     </div>
