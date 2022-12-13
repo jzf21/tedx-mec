@@ -23,12 +23,7 @@ function App() {
   return (
     
     <>
-     <Routes>
      
-     <Route path="/tedx" element={<Tedx />} />
-     <Route path="/tedxmec" element={<Tedxmec />} />
-      
-     </Routes>
       {/* <Homepage />
       */}
       {/* <div className="h-[100vh]">
@@ -39,6 +34,7 @@ function App() {
       ) : (
         <>
           
+           
           <NavBar />
           <Home />
          
@@ -60,6 +56,11 @@ function App() {
           </ParallaxTextleft>
 
           <About />
+
+          <Tedx />
+          <Tedxmec />
+
+          
           <Speakers />
           <Contact />
         </>

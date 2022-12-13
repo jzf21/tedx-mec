@@ -10,20 +10,20 @@ function About() {
         <h1 className="section__title text-5xl">ABOUT TED</h1>
         <div className="about__section">
           <p className="text-sm">
-            An idea can blossom into something that can bring unspeakable joy or
-            misery to millions. Every human endeavour no matter how small or
-            great began with a simple idea. This philosophy is at the heart of
-            TED whose mission is to spread ‘ideas worth spreading’ to the
-            masses. <br />
-            TED is a media organization devoted to spreading ideas. Owing to its
-            Silicon Valley origins TED's early emphasis was on technology,
-            entertainment and design,but it has since broadened its focus to
-            include talks on many scientific, cultural, humanitarian and
-            academic topics. Each Ted talk is given by an expert in their
-            particular field. Past speakers include Bill Clinton, Al Gore,
-            Gordon Brown, David Cameron, Billy Graham, Richard Dawkins, Bill
-            Gates, Bono, Google founders Larry Page and Sergey Brin, and many
-            Nobel Prize winners.
+          TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day
+conference in California 30 years ago, TED has grown to support its mission with multiple
+initiatives. The two annual TED Conferences invite the world's leading thinkers and doers to
+speak for 18 minutes or less. Many of these talks are then made available, free, at TED.com. <br />TED
+speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Nandan
+Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel Kahneman.
+The annual TED Conference takes place each spring in Vancouver, British Columbia. TED's media
+initiatives include TED.com, where new TED Talks are posted daily; TED Translators, which
+provides subtitles and interactive transcripts as well as translations from volunteers worldwide;
+the educational initiative TED-Ed.<br /> TED has established The Audacious Project that takes a
+collaborative approach to funding ideas with the potential to create change at thrilling scale;
+TEDx, which supports individuals or groups in hosting local, self- organized TED-style events
+around the world, and the TED Fellows program, helping world-changing innovators from around
+the globe to amplify the impact of their remarkable projects and activities.
           </p>
         </div>
       </div>

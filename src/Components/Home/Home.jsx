@@ -17,6 +17,7 @@ const Home = () => {
     setShow(!show);
   };
   return (
+    <div id = "home">
     <motion.div className="bg-[#111111] h-[100vh] ">
       <motion.div className=" translate-y-2/4">
         <motion.div className="relative ">
@@ -47,6 +48,7 @@ const Home = () => {
         Coming Soon
       </motion.h1> */}
     </motion.div>
+    </div>
   );
 };
 
