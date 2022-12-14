@@ -2,13 +2,14 @@ import React from "react";
 import Clippy from "../Clippy/Clippy";
 
 import "./About.css";
+import tedximage from "../../assets/2019-1.jpg"
 
 function About() {
   return (
     <div className="about bg-black text-white">
-      <div className="about__container" id="about">
-        <h1 className="section__title text-5xl">ABOUT TED</h1>
+      <div className="about__container grid grid-cols-2" id="about">
         <div className="about__section">
+          <h1 className="section__title text-5xl">ABOUT TED</h1>
           <p className="text-sm">
             An idea can blossom into something that can bring unspeakable joy or
             misery to millions. Every human endeavour no matter how small or
@@ -26,6 +27,7 @@ function About() {
             Nobel Prize winners.
           </p>
         </div>
+        <img src={tedximage} alt="" className="about__image" />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-5">

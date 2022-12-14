@@ -6,15 +6,16 @@ import About from "./Components/About/About";
 import Butterfly from "./Components/Butterfly/Butterfly";
 import { ParallaxText } from "./Components/ScrollBanner/Scrollbanner";
 import { ParallaxTextleft } from "./Components/ScrollBanner/Scrollbannerleft";
-import Speakers from "./Components/Speakers/Speakers";
+
 import Homepage from "./Pages/Homepage";
 import Loadingscreen from "./Components/Loadingscreen.jsx/Loadingscreen";
 import Contact from "./Components/Contact/Contact";
+import Carousel from "./Components/Carouslcool";
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 6000);
+    setTimeout(() => setLoading(false), 1000);
   }, []);
   return (
     <>
@@ -45,12 +46,16 @@ function App() {
           </ParallaxTextleft>
 
           <About />
-          <Speakers />
+          {/* <Speakers /> */}
           <Contact />
+
+          {/* <Speakers />
+          <Contact /> */}
         </>
       )}
     </>
   );
+
 }
 
 export default App;

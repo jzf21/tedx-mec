@@ -4,7 +4,7 @@ import { SpeakerCard } from "../SpeakerCard/SpeakerCard";
 
 const Speakers = () => {
   return (
-    <div className="grid grid-cols-3 h-[100vh] conic-5 gap-5">
+    <div className="grid grid-cols-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
       <SpeakerCard /> <SpeakerCard /> <SpeakerCard /> <SpeakerCard />
       {/* <div className="bg-black col-span-1">
         <motion.div className="flex justify-center items-center ">
