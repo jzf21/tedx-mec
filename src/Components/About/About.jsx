@@ -7,7 +7,7 @@ import tedximage from "../../assets/2019-1.jpg"
 function About() {
   return (
     <div className="about bg-black text-white">
-      <div className="about__container grid grid-cols-2" id="about">
+      <div className="about__container grid grid-flow-row md:grid-cols-2" id="about">
         <div className="about__section">
           <h1 className="section__title text-5xl">ABOUT TED</h1>
           <p className="text-sm">

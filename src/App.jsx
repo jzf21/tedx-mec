@@ -46,11 +46,10 @@ function App() {
           </ParallaxTextleft>
 
           <About />
-          {/* <Speakers /> */}
+        
           <Contact />
 
-          {/* <Speakers />
-          <Contact /> */}
+       
         </>
       )}
     </>

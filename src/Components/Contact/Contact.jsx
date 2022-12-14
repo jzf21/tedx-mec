@@ -8,7 +8,7 @@ const Contact = () => {
         Have queries regarding our event? Leave us a mail at tedx@nitc.ac.in or
         give us a call on the following numbers.
       </p>
-      <div className="flex flex-row  items-center gap-16">
+      <div className="flex flex-col md:flex-row  items-center gap-8 md:gap-16">
         <div className="card">
           <div class="flex justify-center">
             <div class="block p-6 rounded-lg shadow-lg bg-[#101010] max-w-sm my-5">
