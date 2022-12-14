@@ -11,6 +11,7 @@ import Homepage from "./Pages/Homepage";
 import Loadingscreen from "./Components/Loadingscreen.jsx/Loadingscreen";
 import Contact from "./Components/Contact/Contact";
 import Carousel from "./Components/Carouslcool";
+import Footer from "./Components/footer/Footer";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -48,6 +49,8 @@ function App() {
           <About />
         
           <Contact />
+
+          <Footer />
 
        
         </>
