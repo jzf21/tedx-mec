@@ -11,6 +11,8 @@ import Homepage from "./Pages/Homepage";
 import Loadingscreen from "./Components/Loadingscreen.jsx/Loadingscreen";
 import Contact from "./Components/Contact/Contact";
 import Carousel from "./Components/Carouslcool";
+import Footer from "./Components/Footer/Footer";
+import Speakers from "./Components/Speakers/Speakers";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -19,10 +21,7 @@ function App() {
   }, []);
   return (
     <>
-      {/* <Homepage /> */}
-      {/* <div className="h-[100vh]">
-        <Butterfly />
-      </div> */}
+   
       {loading ? (
         <Loadingscreen />
       ) : (
@@ -46,15 +45,13 @@ function App() {
           </ParallaxTextleft>
 
           <About />
-        
+        <Speakers/>
           <Contact />
-
-       
+          <Footer/>
         </>
       )}
     </>
   );
-
 }
 
 export default App;

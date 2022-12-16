@@ -40,10 +40,6 @@
   opacity: 0.1;
 }
 
-span {
-  top: 75%;
-}
-
 .cardspeaker .content h3 {
   font-size: 3rem;
   padding-bottom: 10px;
@@ -63,24 +59,4 @@ span {
   opacity: 1;
 }
 
-.cardspeakerBox::before {
-  content: "";
-  position: absolute;
-  width: 40%;
-  height: 150%;
-  background: #40E0D0;
-background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
-background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
-  animation: glowing01 5s linear infinite;
-  transform-origin: center;
-  animation: glowing 5s linear infinite;
-}
 
-@keyframes glowing {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
