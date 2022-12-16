@@ -7,11 +7,10 @@ import Butterfly from "./Components/Butterfly/Butterfly";
 import { ParallaxText } from "./Components/ScrollBanner/Scrollbanner";
 import { ParallaxTextleft } from "./Components/ScrollBanner/Scrollbannerleft";
 
-import Homepage from "./Pages/Homepage";
 import Loadingscreen from "./Components/Loadingscreen.jsx/Loadingscreen";
 import Contact from "./Components/Contact/Contact";
 import Carousel from "./Components/Carouslcool";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/footer/Footer";
 import Speakers from "./Components/Speakers/Speakers";
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,7 +20,6 @@ function App() {
   }, []);
   return (
     <>
-   
       {loading ? (
         <Loadingscreen />
       ) : (
@@ -45,9 +43,9 @@ function App() {
           </ParallaxTextleft>
 
           <About />
-        <Speakers/>
+          <Speakers />
           <Contact />
-          <Footer/>
+          <Footer />
         </>
       )}
     </>
