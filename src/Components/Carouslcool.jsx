@@ -1,3 +1,5 @@
+import React from "react";
+
 function useTilt(active) {
   const ref = useRef(null);
   const slides = [
@@ -133,7 +135,7 @@ function Slide({ slide, offset }) {
   );
 }
 
-function Carousel() {
+function Carousel11() {
   const [state, dispatch] = React.useReducer(slidesReducer, initialState);
 
   return (
@@ -149,4 +151,4 @@ function Carousel() {
   );
 }
 
-export default Carousel;
+export default Carousel11;

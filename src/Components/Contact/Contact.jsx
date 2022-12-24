@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="bg-red flex flex-col items-center">
       <h1 className="mx-5 text-white text-5xl my-5">Contact</h1>
       <p className="mx-5 text-white my-5">
-        Have queries regarding our event? Leave us a mail at tedx@nitc.ac.in or
+        Have queries regarding our event? Leave us a mail at tedx@mec.ac.in or
         give us a call on the following numbers.
       </p>
       <div className="flex flex-col md:flex-row  items-center gap-8 md:gap-16">
