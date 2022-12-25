@@ -53,7 +53,7 @@ export function ParallaxText({ children }) {
   });
 
   return (
-    <div className="parallax">
+    <div className="parallax opacity-50">
       <motion.div className="scroller" style={{ x }}>
         <motion.span style={{ skew: skewVelocityFactor }}>
           {children}

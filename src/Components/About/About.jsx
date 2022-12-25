@@ -10,7 +10,7 @@ function About() {
       <div className="about__container grid grid-flow-row md:grid-cols-2" id="about">
         <div className="about__section">
           <h1 className="section__title text-5xl">ABOUT TED</h1>
-          <p className="text-sm">
+          <p className="text-sm text-left">
             An idea can blossom into something that can bring unspeakable joy or
             misery to millions. Every human endeavour no matter how small or
             great began with a simple idea. This philosophy is at the heart of

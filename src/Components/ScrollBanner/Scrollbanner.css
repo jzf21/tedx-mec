@@ -6,7 +6,8 @@
   white-space: nowrap;
   display: flex;
   flex-wrap: nowrap;
-  color: white;
+  color: rgba(255, 255, 255, 0.327);
+  opacity: .5;
   
 }
 
@@ -23,4 +24,6 @@
 .parallax span {
   display: block;
   margin-right: 30px;
+  opacity: .5;
 }
+
